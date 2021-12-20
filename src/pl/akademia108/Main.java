@@ -24,6 +24,19 @@ public class Main {
         System.out.println(bigInteger);
 
         /* liczba zmiennoprzecinkowa pojedynczej precyzji – zapisywany w 32 bitach pamięci – zapisywana z przyrostkiem f (54.91f) */
-//        float realNumber =
+        float realNumber = 54.91f;
+        System.out.println(realNumber);
+
+        /* double – liczba zmiennoprzecinkowa pojedynczej precyzji – zapisywany w 64 bitach pamięci */
+        double longRealNumber = 54.7976931313486231573;
+        System.out.println(longRealNumber);
+
+        /* typ logiczny – może przyjąć dwie wartości: true lub false */
+
+        boolean itIsTrue = true;
+        System.out.println(itIsTrue);
+
+
+
+      }
     }
-}
